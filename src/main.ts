@@ -26,6 +26,6 @@ const options = new DocumentBuilder()
 
 
 
-  await app.listen(process.env.PORT);
+  await app.listen(process.env.PORT||7000);
 }
 bootstrap();
